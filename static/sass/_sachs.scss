@@ -222,6 +222,7 @@ header.global {
 	position: fixed !important;
 	border-bottom: none !important;
 	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3) !important;
+	top: 0;
 }
 
 .home>header {
@@ -231,7 +232,7 @@ header.global {
     background-size: auto 35vw !important;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-color: #fff;
+	background-color: #fff !important;
     box-shadow: none !important;
 
     .outer-wrapper {
@@ -265,7 +266,9 @@ header.global {
 //-----------------
 // Main Content Styling
 //-----------------
-
+.content-wrapper {
+    margin-top: 76px;
+}
 .ribbon {
     padding: 20vh 0;
     text-align: center;
