@@ -231,6 +231,7 @@ header.global {
     background-size: auto 35vw !important;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-color: #fff;
     box-shadow: none !important;
 
     .outer-wrapper {
@@ -239,6 +240,7 @@ header.global {
         .title {
             text-align: center;
             background: none;
+			box-shadow: none;
 			
 			.heading-group {
 				text-align: center !important;
