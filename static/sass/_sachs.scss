@@ -218,10 +218,16 @@ html {
 //-----------------
 // Header Styling
 //-----------------
-header.global {
-	position: fixed !important;
-	border-bottom: none !important;
-	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3) !important;
+.is-authenticated header#global-navigation {
+    position: relative;
+}
+header#global-navigation.global.slim {
+    position: relative;
+}
+header#global-navigation {
+	position: fixed;
+	border-bottom: none;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
 	top: 0;
 }
 
@@ -236,7 +242,7 @@ header.global {
     box-shadow: none !important;
 
     .outer-wrapper {
-        padding: 20vw 0 0 !important;
+        padding: 100px 0 0 !important;
 
         .title {
             text-align: center;
@@ -261,6 +267,24 @@ header.global {
         }
 
     }
+}
+
+.course-info header.course-profile {
+	height: 280px;
+	padding-top: 100px;
+	margin-top: 0;
+	background-position-y: 76px;
+    background-position-x: 50%;
+	
+	.intro-inner-wrapper .media .hero {
+		text-align: center;
+		
+		img {
+			width: auto;
+			max-height: 215px;
+			margin: auto;
+		}
+	}
 }
 
 //-----------------
