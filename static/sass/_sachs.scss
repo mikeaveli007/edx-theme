@@ -231,6 +231,11 @@ header#global-navigation {
 	top: 0;
 }
 
+section.home div.outer-wrapper {
+    padding: 12vw 0 0;
+    margin-top: 75px;
+}
+
 .home>header {
     height: 100vh;
     background-position-y: 76px;
@@ -242,7 +247,6 @@ header#global-navigation {
     box-shadow: none !important;
 
     .outer-wrapper {
-        padding: 100px 0 0 !important;
 
         .title {
             text-align: center;
