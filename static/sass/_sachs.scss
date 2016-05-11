@@ -294,9 +294,19 @@ section.home div.outer-wrapper {
 //-----------------
 // Main Content Styling
 //-----------------
-.content-wrapper {
+#login-and-registration-container {
     margin-top: 76px;
 }
+.find-courses {
+    margin-top: 76px;
+}
+.view-profile .wrapper-profile {
+    margin-top: 76px;
+}
+.wrapper-account-settings {
+    margin-top: 76px;
+}
+
 .ribbon {
     padding: 20vh 0;
     text-align: center;
@@ -344,7 +354,6 @@ section.home div.outer-wrapper {
 .wrapper-footer {
     box-shadow: inset 0 5px 10px -5px rgba(0,0,0,0.3) !important;
     background: #cccccc;
-	margin-top: 0 !important;
 
     footer {
         max-width: 1180px;
